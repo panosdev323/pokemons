@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemons</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="/photos/favicon.png">
+    <link rel="stylesheet" href="./css/main.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row pt-4">
+            <div class="col-12">
+                <div class="d-flex align-items-center">
+                    <input type="search" list="pokemonList" name="search-input" id="search-input" class="poke-control" placeholder="search...">
+                    <button id="search-button" class="btn btn-danger ms-1">Search</button>
+                </div>
+                <div>
+                <datalist id="pokemonList">
+                    <!-- pokemons list -->
+                </datalist>
+            </div>
+        </div>
+        <main id="pokemonDts" class="row">
+            <div class="col-12">
+                <h2 class="text-center mt-4 text-danger">Pokemons</h2>
+                <p class="lead">The Pokémon franchise revolves around over 1,000 fictional species of collectible monsters, each having unique designs, skills and powers. Conceived by Satoshi Tajiri in early 1989, Pokémon (or Pocket Monsters) are fictional creatures that inhabit the fictional Pokémon World. The designs for the multitude of species can draw inspiration from anything such as animals, plants and mythological creatures. Many Pokémon are capable of evolving into more powerful species, while others can undergo form changes and achieve similar results. Originally, only a handful of artists led by Ken Sugimori designed Pokémon. However, by 2013 a team of 20 artists worked together to create new species designs. Sugimori and Hironobu Yoshida lead the team and determine the final designs.</p>
+                <p class="lead">The vast array of creatures is commonly divided into "Generations", with each division primarily encompassing new titles in the main video game series and often a change of handheld platform. Generation I refers to Red, Green, Blue and Yellow; Generation II refers to Gold, Silver and Crystal; Generation III refers to Ruby, Sapphire, FireRed, LeafGreen and Emerald; Generation IV refers to Diamond, Pearl, Platinum, HeartGold and SoulSilver; Generation V refers to Black, White, Black 2 and White 2; Generation VI refers to X, Y, Omega Ruby and Alpha Sapphire; Generation VII refers to Sun, Moon, Ultra Sun, Ultra Moon, Let's Go, Pikachu! and Let's Go, Eevee!; Generation VIII refers to Sword, Shield, Brilliant Diamond, Shining Pearl and Legends: Arceus; and Generation IX refers to Scarlet and Violet. Each Generation is also marked by the addition of new Pokémon: 151 in Generation I in the Kanto region, 100 in Generation II in the Johto region, 135 in Generation III in the Hoenn region, 107 in Generation IV in the Sinnoh region, 156 in Generation V in the Unova region, 72 in Generation VI in the Kalos region, 88 in Generation VII in the Alola and Kanto regions, 96 in Generation VIII in the Galar and Hisui regions and 120 in Generation IX in the Paldea region.</p>
+                <p class="lead">Due to the large number of Pokémon, listing of each species is divided into articles by generation. The 1025 Pokémon are organized by their number in the National Pokédex—an in-game electronic encyclopedia that provides various information on Pokémon. The National Pokédex is subdivided into regional Pokédex series, each revolving around species introduced at the time of their respective generations along with older generations. For example, the Johto Pokédex, Generation II, covers the 100 species introduced in Gold and Silver in addition to the original 151 species. The encyclopedias follow a general ordering: starter Pokémon are listed first, followed by species obtainable early in the respective games and are concluded with Legendary and Mythical Pokémon. Generation V is the sole exception, as Victini is the first Pokémon in the Unova Pokédex.</p>
+            </div>
+        </main>
+        <main id='main' class="row">
+        <!-- main stats -->
+        </main>
+        <div class="row">
+            <ul id="divStats" class="list-group d-none">
+            <!-- secondary stats -->
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+
